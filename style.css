@@ -103,8 +103,7 @@ body {
 
 .sectionTwo h1,
 .sectionThree h1,
-.sectionFour h1,
-.sectionFive h1 {
+.sectionFour h1 {
     color: #23272A;
     font-family: Open Sans;
     font-size: 1.5rem;
@@ -114,6 +113,16 @@ body {
     text-align: left;
     width: auto;
     border: solid 2px red;
+}
+
+.sectionFive h1 {
+    font-family: Luckiest Guy;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #23272A;
 }
 
 
@@ -143,13 +152,12 @@ footer {
 @media screen and (min-width: 600px) {
 
     .sectionOne {
-
         background-image: url(./img//HeaderFullView.png);
         background-size: cover;
         align-items: center;
-
-
     }
+
+
 
     .sectionOne h1 {
         font-family: Luckiest Guy;
@@ -210,7 +218,8 @@ footer {
 
     /* SECTION TWO */
 
-    .sectionTwo img {
+    .sectionTwo img,
+    .sectionFour img {
         width: 607px;
         height: 394px;
         border: 2px solid red;
@@ -220,7 +229,8 @@ footer {
 
 
 
-    .sectionTwo {
+    .sectionTwo,
+    .sectionFour {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -236,7 +246,9 @@ footer {
     }
 
 
-    .sectionTwo h1 {
+
+    .sectionTwo h1,
+    .sectionFour h1 {
         font-family: Open Sans;
         font-size: 40px;
         font-weight: 800;
@@ -250,7 +262,8 @@ footer {
     }
 
 
-    .sectionTwo p {
+    .sectionTwo p,
+    .sectionFour p {
         font-family: Open Sans;
         font-size: 16px;
         font-weight: 400;
@@ -292,7 +305,17 @@ footer {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        
+
+    }
+
+    .info4 {
+        border: 2px solid rgb(255, 0, 225);
+        max-width: fit-content;
+        max-width: 100%;
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
 
@@ -324,11 +347,46 @@ footer {
         flex-wrap: wrap;
     }
 
+    /* SECTION Five */
 
 
+    .sectionFive img {
+        width: 784;
+        height: 508px;
+        border: 2px solid red;
+
+        max-width: 100%;
+        flex-wrap: wrap;
+    }
 
 
+    .sectionFive {
+        background-color: #F6F6F6;
+        background-size: cover;
+        align-items: center;
+    }
 
+    .sectionFive h1 {
+        width: 608px;
+        font-family: Luckiest Guy;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 40px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #23272A;
+    }
 
-
+    .sectionFive p {
+        width: 802px;
+        font-family: Open Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #23272A;
+        max-width: 100%;
+        flex-wrap: wrap;
+    }
 }
