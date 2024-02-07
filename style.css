@@ -6,13 +6,12 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: pink;
 }
 
 .sectionOne {
     display: flex;
-    flex: auto 1 1;
     flex-direction: column;
     height: 505px;
     background-image: url(./img/headerBck.png);
@@ -45,7 +44,7 @@ body{
     letter-spacing: 0em;
     text-align: left;
     border: solid rgb(0, 255, 60) 2px;
-    width:auto;
+    width: auto;
 
 
 }
@@ -56,9 +55,9 @@ body{
     font-weight: 400;
     letter-spacing: 0em;
     text-align: center;
-    width:auto;
-    
-    
+    width: auto;
+
+
     height: 3.37rem;
     border-radius: 28px;
     border: solid rgb(0, 174, 255) 2px;
@@ -75,4 +74,61 @@ body{
 #black {
     background-color: #23272A;
     color: #FFFFFF;
+}
+
+.sectionTwo, .sectionThree, .sectionFour, .sectionFive {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    background-color: #FFFFFF;
+    background-size: cover;
+    gap: 27px;
+    border: solid 2px rgb(212, 255, 0);
+    padding-top: 40px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 40px;
+}
+
+.sectionThree,
+.sectionFive{
+    background-color: #F6F6F6;
+}
+
+.sectionTwo h1,
+.sectionThree h1,
+.sectionFour h1,
+.sectionFive h1 {
+    color: #23272A;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: auto;
+    border: solid 2px red;
+}
+
+
+.sectionTwo p,
+.sectionThree p,
+.sectionFour p,
+.sectionFive p {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #23272A;
+    width: auto;
+}
+
+footer{
+    height: 8rem;
+    background-color: #23272A;
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
