@@ -1,5 +1,8 @@
 # Fala pessoal !
-Este foi mais um treino de melhoria contínua na parte de CSS, atualmente a responsividade é obrigatória, devido ao fato dos celulares dominarem em grande parte o acesso a internet. Tá lá, bem responsivo se estourar nada, abri ai no celular pra ver!!
+Este foi mais um treino de melhoria contínua na parte de CSS, atualmente a responsividade é obrigatória, devido ao fato dos celulares dominarem em grande parte o acesso a internet. 
+<br>
+Tá lá, bem responsivo se estourar nada, abri ai no celular pra ver!! <br>
+https://mobile-first-pink-iota.vercel.app/
 
 
 <br>
