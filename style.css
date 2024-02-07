@@ -6,10 +6,6 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: pink;
-}
-
 .sectionOne {
     display: flex;
     flex-direction: column;
@@ -42,7 +38,6 @@ body {
     line-height: 22px;
     letter-spacing: 0em;
     text-align: left;
-    border: solid rgb(0, 255, 60) 2px;
     width: auto;
 }
 
@@ -59,12 +54,8 @@ body {
     letter-spacing: 0em;
     text-align: center;
     width: auto;
-
-
     height: 3.37rem;
     border-radius: 28px;
-    border: solid rgb(0, 174, 255) 2px;
-
 }
 
 #white {
@@ -89,12 +80,12 @@ body {
     background-color: #FFFFFF;
     background-size: cover;
     gap: 27px;
-    border: solid 2px rgb(212, 255, 0);
     padding-top: 40px;
     padding-left: 24px;
     padding-right: 24px;
     padding-bottom: 40px;
 }
+
 
 .sectionThree,
 .sectionFive {
@@ -112,7 +103,6 @@ body {
     letter-spacing: 0em;
     text-align: left;
     width: auto;
-    border: solid 2px red;
 }
 
 .sectionFive h1 {
@@ -185,7 +175,6 @@ footer {
 
     .twobtn {
         display: inline-block;
-
     }
 
     .btn {
@@ -197,8 +186,6 @@ footer {
         text-align: center;
         height: 44px;
         border-radius: 28px;
-        border: solid rgb(0, 174, 255) 2px;
-
     }
 
     #white {
@@ -222,7 +209,6 @@ footer {
     .sectionFour img {
         width: 607px;
         height: 394px;
-        border: 2px solid red;
         max-width: 100%;
         flex-wrap: wrap;
     }
@@ -239,7 +225,6 @@ footer {
     }
 
     .info {
-        border: 2px solid rgb(255, 0, 225);
         max-width: fit-content;
         max-width: 100%;
         flex-wrap: wrap;
@@ -255,7 +240,6 @@ footer {
         line-height: 54px;
         letter-spacing: 0em;
         text-align: left;
-        border: 2px solid red;
         width: 340px;
         max-width: 100%;
         flex-wrap: wrap;
@@ -272,7 +256,6 @@ footer {
         text-align: left;
         width: 340px;
 
-        border: 2px solid red;
         max-width: 100%;
         flex-wrap: wrap;
     }
@@ -282,7 +265,6 @@ footer {
     .sectionThree img {
         width: 607px;
         height: 394px;
-        border: 2px solid red;
         max-width: 100%;
         flex-wrap: wrap;
     }
@@ -291,14 +273,13 @@ footer {
 
     .sectionThree {
         display: flex;
-        flex-direction: row;
+        flex-direction: row-reverse;
         justify-content: center;
         max-width: 100%;
         flex-wrap: wrap;
     }
 
     .info3 {
-        border: 2px solid rgb(255, 0, 225);
         max-width: fit-content;
         max-width: 100%;
         flex-wrap: wrap;
@@ -309,7 +290,6 @@ footer {
     }
 
     .info4 {
-        border: 2px solid rgb(255, 0, 225);
         max-width: fit-content;
         max-width: 100%;
         flex-wrap: wrap;
@@ -326,7 +306,6 @@ footer {
         line-height: 54px;
         letter-spacing: 0em;
         text-align: left;
-        border: 2px solid red;
         width: 348px;
         max-width: 100%;
         flex-wrap: wrap;
@@ -341,8 +320,6 @@ footer {
         letter-spacing: 0em;
         text-align: left;
         width: 348px;
-
-        border: 2px solid red;
         max-width: 100%;
         flex-wrap: wrap;
     }
@@ -353,8 +330,6 @@ footer {
     .sectionFive img {
         width: 784;
         height: 508px;
-        border: 2px solid red;
-
         max-width: 100%;
         flex-wrap: wrap;
     }
