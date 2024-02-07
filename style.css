@@ -6,9 +6,21 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: pink;
+}
+
 .sectionOne {
+    display: flex;
+    flex: auto 1 1;
+    flex-direction: column;
     height: 505px;
     background-image: url(./img/headerBck.png);
+    background-size: cover;
+    padding: 0px 24px 0px 24px;
+    gap: 24px;
+    border: solid blue 2px;
+
 }
 
 .sectionOne>h1 {
@@ -19,6 +31,9 @@
     line-height: 32px;
     letter-spacing: 0em;
     text-align: left;
+    padding-top: 4.31rem;
+    border: solid red 2px;
+    width: auto;
 }
 
 .sectionOne p {
@@ -29,6 +44,9 @@
     line-height: 22px;
     letter-spacing: 0em;
     text-align: left;
+    border: solid rgb(0, 255, 60) 2px;
+    width:auto;
+
 
 }
 
@@ -38,20 +56,23 @@
     font-weight: 400;
     letter-spacing: 0em;
     text-align: center;
-    width: 381px;
-    height: 54px;
+    width:auto;
+    
+    
+    height: 3.37rem;
     border-radius: 28px;
+    border: solid rgb(0, 174, 255) 2px;
 
 }
 
-#white{
+#white {
     color: #23272A;
     background-color: #FFFFFF;
     max-width: auto;
 
 }
 
-#black{
+#black {
     background-color: #23272A;
     color: #FFFFFF;
 }
