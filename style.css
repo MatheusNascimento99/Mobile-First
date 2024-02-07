@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:wght@400;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sectionOne {
+    height: 505px;
+    background-image: url(./img/headerBck.png);
+}
+
+.sectionOne>h1 {
+    color: #FFFFFF;
+    font-family: Luckiest Guy;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.sectionOne p {
+    color: #FFFFFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.btn {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 381px;
+    height: 54px;
+    border-radius: 28px;
+
+}
+
+#white{
+    color: #23272A;
+    background-color: #FFFFFF;
+    max-width: auto;
+
+}
+
+#black{
+    background-color: #23272A;
+    color: #FFFFFF;
+}
